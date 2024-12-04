@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
   <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   <!-- Page Title -->
   <title>TEV Triton Electric Vehicle</title>
@@ -32,6 +34,26 @@
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <style>
+      @media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Styles for medium screens (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Styles for large screens (desktops) */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
+
     .image-section img {
             max-width: 800px;
             width: 100%;
@@ -192,7 +214,7 @@
           </div>
            <div class="image-section">
             <img src="assets/images/45T Truck.png" alt="Hydrogen Engine">
-            <button class="btn-request">Request a quote</button>
+            <button class="btn-request" onclick="window.location.href='contact.html'";>Request a quote</button>
         </div>
         </div>
       </div>
