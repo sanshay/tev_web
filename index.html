@@ -1,0 +1,582 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <!-- Page Title -->
+  <title>TEV Triton Electric Vehicle</title>
+
+  <!-- Compressed Styles -->
+  <link href="css/slides.min.css?41331" rel="stylesheet" type="text/css">
+
+  <!-- Custom Styles -->
+  <!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
+
+  <!-- jQuery 3.3.1 -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Compressed Scripts -->
+  <script src="js/slides.min.js?41331" type="text/javascript"></script>
+  <script>
+  function openModal(imageSrc) {
+    const modal = document.getElementById("imageModal");
+    const modalImage = document.getElementById("modalImage");
+    modalImage.src = imageSrc;
+    modal.style.display = "flex";
+  }
+
+  function closeModal() {
+    const modal = document.getElementById("imageModal");
+    modal.style.display = "none";
+  }
+</script>
+
+  <!-- Custom Scripts -->
+  <!-- <script src="js/custom.js" type="text/javascript"></script> -->
+
+  <!-- Fonts and Material Icons -->
+  <link rel="stylesheet" as="font"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons" />
+
+  <link rel="icon" type="image/x-icon" href="assets/images/logo-home.png">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <style>
+     .image-container .image {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .image-container .image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  </style>
+</head>
+
+<body class="slides chain simplifiedMobile animated">
+
+  <!-- Navigation -->
+  <nav class="side pole">
+    <div class="navigation">
+      <ul></ul>
+    </div>
+  </nav>
+
+  <!-- Panel Top #08 -->
+  <nav class="panel top">
+    <div class="sections desktop">
+      <div class="left">
+        <header class="p-3">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img class="bi me-2" role="img" src="assets/images/logo-home.png" alt="logo">
+              </a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="center">
+        <ul class="menu">
+          <li><a href="10-ton-tev.html" class="nav-link px-2 text-white">10 TON ELECTRIC TRUCK</a>
+          </li>
+          <li><a href="45-ton-tev.html" class="nav-link px-2 text-white">45 TON ELECTRIC SEMI
+              TRUCK</a></li>
+          <li><a href="hc-engine.html" class="nav-link px-2 text-white">Hydrogen Combustion
+              Engine</a></li>
+          <li><a href="about.html" class="nav-link px-2 text-white">About Us</a></li>
+          <li><a href="contact.html" class="nav-link px-2 text-white">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <header class="p-3">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <div class="text-end socialIcons">
+                <a href="#"><img src="assets/images/social-media/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/images/social-media/twitter-alt-circle.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/images/social-media/instagram.png" alt="Instagram"></a>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="sections compact hidden">
+      <div class="left"><a href="https://designmodo.com/?u=3165" title="Slides Framework"><svg
+            style="width:82px;height:24px">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+          </svg></a></div>
+      <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use>
+          </svg></span></div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <nav class="sidebar" data-sidebar-id="1">
+    <div class="close"><svg>
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+      </svg></div>
+    <div class="content">
+      <a href="#" class="logo"><svg width="37" height="30">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-icon"></use>
+        </svg></a>
+      <ul class="mainMenu margin-top-3">
+        <li><a href="10-ton-tev.html">10 TON ELECTRIC TRUCK</a></li>
+        <li><a href="45-ton-tev.html">45 TON ELECTRIC SEMI TRUCK</a></li>
+        <li><a href="hc-engine.html">Hydrogen Combustion Engine</a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <ul class="social opacity-8">
+        <li><a href="#"><svg>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+            </svg></a></li>
+        <li><a href="#"><svg>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li><a href="#"><svg>
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+            </svg></a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Slide 1 (#09) -->
+  <section class="slide fade-6 kenBurns">
+    <div class="content">
+      <div class="container">
+        <div class="wrap">
+          <div class="fix-12-12">
+            <!-- <p class="ae-3" style="font-weight:500;font-size:25px;" ><span>TRITON ELECTRIC VEHICLE</span></p> -->
+            <div class="fix-12-12">
+              <!-- <img src="./assets/img/logo-home.png" height="77" class="wide ae-1 fromCenter" alt="Logo"> -->
+              <!-- <img src="./assets/images/background/semi-truck14.png" height="auto" class="ultra-expanded fromCenter" alt="Logo"> -->
+             <img src="./assets/images/background/main logo.png" height="auto" class="ultra-expanded fromCenter" alt="Logo"> 
+            </div>
+            <!-- <p class="ae-3"><span class="opacity-8">DEFINING A<b> NEW CLASS</b> OF <b> ELECTRIC VEHICLES</b></span></p> -->
+            <!-- <p class="ae-3" style="font-weight:500;font-size:25px;" ><span>DEFINING A NEW CLASS OF ELECTRIC VEHICLES</span></p> -->
+            <p class="ae-3" style="font-weight:200;font-size:25px;"><span class="opacity-8">DEFINING A<b> NEW CLASS</b>
+                OF <b> ELECTRIC VEHICLES</b></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="background" style="background-image: url('./assets/img/semi-truck6.png');"></div> -->
+    <!-- <div class="background" style="background-image: url('./assets/images/background/semi-truck14.png');"></div> -->
+    <div class="background" style="background-image: url('./assets/img/background/img-09.jpg');"></div>
+  </section>
+
+
+
+  <!-- Slide 2 (#15) -->
+ <section class="slide fade-6 kenBurns fromLeft" style="display: flex; align-items: center; justify-content: space-between; height: 100vh; background-color: black; padding: 0 5vw;">
+    <!-- Left Side: Title and Image -->
+    <div style="flex: 1; text-align: left; position: relative;">
+        <!-- Title Above Image -->
+        <h1 style="font-size: 7rem; color: white; text-align: left; margin-bottom: 1.5vw; white-space: nowrap; text-overflow: ellipsis;">
+          Driving Innovation, Empowering Change
+        </h1>
+      
+        <!-- Image -->
+        <img 
+          src=".\assets\images\TEV Goals (1).png" 
+          alt="Triton Electric Vehicle" 
+          style="max-width: 80%; height: auto; object-fit: contain; border-radius: 12px;" 
+        />
+    </div>
+
+    <!-- Right Side: Paragraph and Button -->
+    <div style="flex: 1; color: white; padding-left: 2vw;">
+        <p style="font-size: 1.2vw; line-height: 1.6;">
+            At Triton Electric Vehicle, we are redefining the future of commercial transportation with our innovative electric vehicles. 
+            Designed with businesses in mind, our long-range electric vehicles offer unmatched reliability, efficiency, and scalability, 
+            while also delivering on the safety and performance your fleet demands.
+        </p>
+        <button style="padding: 0.8vw 1.5vw; font-size: 1.2vw; background-color: white; color: black; border: none; border-radius: 8px; cursor: pointer;">
+            Learn More About Our Journey
+        </button>
+    </div>
+</section>
+
+  <!-- Slide 3 (#15) -->
+ <section class="slide fade-6 kenBurns fromLeft" style="display: flex; align-items: center; justify-content: space-between; height: 100vh; background-color: black; color: white; padding: 5vw;">
+  <!-- Left Side: Title, Subtitle, and Map -->
+  <div style="flex: 1; position: relative;">
+    <h1 style="font-size: 2.5vw; font-weight: 600; margin-bottom: 1vw;">Discover Our Global Presence</h1>
+    <p style="font-size: 1.2vw; margin-bottom: 2vw;">Explore The Locations Where Our Products And Services Are Available</p>
+    <div style="position: relative;">
+      <!-- Map Image -->
+      <img src=".\assets\images\map.png" alt="World Map" style="width: 100%; height: auto; object-fit: cover; border-radius: 10px;">
+    </div>
+  </div>
+
+  <!-- Right Side: Location Information -->
+  <div style="flex: 1; padding-left: 3vw;">
+    <ul style="list-style: none; font-size: 1.2vw; line-height: 1.8; margin: 0; padding: 0;">
+      <li>
+        <strong>Triton Electric Vehicles India Pvt. Ltd.</strong><br>
+        16-A Indraprastha Industrial & Warehouse Hub, Vavdi, Kheda, <br> Gujarat, 387550
+      </li>
+      <li style="margin-top: 1.5vw;">
+        <strong>Triton Electric Vehicle LLC</strong><br>
+        Wzn 05-02, 03, Al Hamra Industrial Zone, Ras Al Khaimah, UAE
+      </li>
+      <li style="margin-top: 1.5vw;">
+        <strong>Triton Electric Vehicle LLC</strong><br>
+        1859 Chammings CT Vineland, NJ 08360
+      </li>
+    </ul>
+    <button style="margin-top: 2vw; padding: 1vw 2vw; font-size: 1.2vw; background-color: white; color: black; border: none; border-radius: 8px; cursor: pointer;">
+      Contact a Dealer Near You
+    </button>
+  </div>
+</section>
+
+
+ <!-- Slide 4 (#15) -->
+<section class="slide fade-6 kenBurns fromLeft" style="background-color: black; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px;">
+    <!-- Heading -->
+    <h1 style="text-align: center; font-size: 7rem; color: white; margin-bottom: 20px; max-width: 1200px;">
+      From Vision to Reality: A Timeline of Our Milestones
+    </h1>
+   
+  
+    <!-- Horizontal Layout for Two Truck Images and Descriptions -->
+    <div class="content-row" style="display: flex; justify-content: center; align-items: flex-start; gap: 40px; flex-wrap: wrap; max-width: 1200px; width: 100%;">
+      
+      
+      <div style="text-align: center; flex: 1; max-width: 100%;">
+        <img
+          src="./assets/images/Word from CEO.png"
+          
+          style="width: 100%; max-height: 100%; border-radius: 12px; object-fit: cover; margin-bottom: 10px;"
+        />
+       
+  
+      
+      <div style="text-align: center; flex: 1; max-width: 100%;">
+        <img
+          src="assets/images/Timeline.png"
+          
+          style="width: 100%; max-height: 280px; border-radius: 12px; object-fit: cover; margin-bottom: 10px;"
+        />
+        
+  
+    </div>
+  </section>
+
+<!-- Slide 5 (#15) -->
+  <section class="slide fade-6 kenBurns fromLeft" style="background-color: black; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px;">
+    <!-- Heading -->
+    <h1 style="text-align: center; font-size: 5rem; color: white; margin-bottom: 20px; max-width: 1200px;">
+      From Light To Heavy – Power That Moves You Forward
+    </h1>
+    <p style="text-align: center; color: #ccc; font-size: 2.5rem; margin-bottom: 50px; max-width: 900px;">
+      Explore Our Range Of Advanced Electric Trucks. Built For Efficiency, Performance, And Sustainability.
+    </p>
+  
+    <!-- Horizontal Layout for Images, Features, and Descriptions -->
+    <div class="content-row" style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap; max-width: 1200px; width: 100%;">
+      <!-- 10T Truck Section -->
+      <div style="text-align: center; flex: 1; max-width: 500px;">
+        <img
+          src=".\assets\images\10T truck.png"
+          alt="10T Truck"
+          style="width: 100%; max-height: 280px; border-radius: 12px; object-fit: cover; margin-bottom: 10px;"
+        />
+        <h2 style="color: white; font-size: 3.5rem; margin: 0;">
+          10T Electric Truck
+        </h2>
+        <p style="color: white; font-size: 2rem; margin-top: 10px;">
+          "Compact, versatile, and efficient for urban cargo delivery."
+        </p>
+        <button style="background-color: #1e90ff; color: white; font-size: 1.5rem; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; margin-top: 10px;">
+          Learn More
+        </button>
+      </div>
+  
+      <!-- Key Features for 10T Truck -->
+      <div style="text-align: center; flex: 1; max-width: 350px;">
+        <img
+          src=".\assets\images\10T kEY FEATURES.png"
+          alt="10T Features"
+          style="width: 100%; max-height: 280px; border-radius: 12px; object-fit: contain; margin-bottom: 10px;"
+        />
+      </div>
+  
+      <!-- Key Features for 45T Truck -->
+      <div style="text-align: center; flex: 1; max-width: 350px;">
+        <img
+          src=".\assets\images\45T key festures.png"
+          alt="45T Features"
+          style="width: 100%; max-height: 280px; border-radius: 12px; object-fit: contain; margin-bottom: 10px;"
+        />
+      </div>
+  
+      <!-- 45T Truck Section -->
+      <div style="text-align: center; flex: 1; max-width: 450px;">
+        <img
+          src=".\assets\images\45T truck.png"
+          alt="45T Truck"
+          style="width: 100%; max-height: 280px; border-radius: 12px; object-fit: cover; margin-bottom: 10px;"
+        />
+        <h2 style="color: white; font-size: 3.5rem; margin: 0;">
+          45T Electric Truck
+        </h2>
+        <p style="color: white; font-size: 2rem; margin-top: 10px;">
+          "Heavy-duty power for long hauls with zero emissions."
+        </p>
+        <button style="background-color: #1e90ff; color: white; font-size: 1.5rem; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; margin-top: 10px;">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5 (#15) -->
+  <section class="slide fade-6 kenBurns fromLeft" style="background-color: black; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px;">
+  <!-- Heading -->
+  <h1 style="text-align: center; font-size: 6rem; color: white; margin-bottom: 20px; max-width: 900px;">
+    Hydrogen Engine: Eco-Driven Power For Every Journey
+  </h1>
+  <p style="text-align: center; color: white; font-size: 3rem; margin-bottom: 50px; max-width: 700px;">
+    From Highways To Cityscapes, Your Zero-Emission Partner In Transportation.
+  </p>
+
+  <!-- Layout for Image and Features -->
+  <div class="content-row" style="display: flex; justify-content: space-between; align-items: center; gap: 40px; flex-wrap: wrap; max-width: 1200px; width: 100%;">
+    <!-- Image Section -->
+    <div style="flex: 1; max-width: 500px; text-align: center;">
+      <img
+        src=".\assets\images\hc-engine.png"
+        alt="Hydrogen Engine"
+        style="width: 100%; max-height: 350px; border-radius: 12px; object-fit: cover; margin-bottom: 20px;"
+      />
+    </div>
+
+    <!-- Features Section -->
+    <div style="flex: 1; max-width: 600px; text-align: left; color: white;">
+      <ul style="list-style: none; padding: 0; font-size: 3rem; line-height: 1.8;">
+        <li>✔ Byproduct is water vapor, leading to zero carbon dioxide emissions.</li>
+        <li>✔ Efficient energy conversion.</li>
+        <li>✔ Retrofitting potential for existing engines.</li>
+        <li>✔ Reduces dependency on fossil fuels.</li>
+        <li>✔ Lower maintenance costs compared to traditional IC engines.</li>
+        <li>✔ Scalable production and distribution of hydrogen.</li>
+      </ul>
+      <div style="margin-top: 20px; text-align: center;">
+        <button style="background-color: #1e90ff; color: white; font-size: 4rem; padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer;">
+          Learn More
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+
+
+
+   <!-- Slide 6 (#15) -->
+  <section class="slide fade-6 kenBurns fromLeft" style="display: flex; align-items: center; justify-content: space-between; height: 100vh; padding: 5vw;  overflow: hidden;">
+  <!-- Left Content -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./assets/images/Powerlink Patent Background.png'); background-size: cover; background-position: center; z-index: 1;"></div>
+  <div style="flex: 1; padding-right: 2vw;">
+    <h1 style="font-size: 3vw; font-weight: bold; margin-bottom: 2vw;">
+      Empowering Homes With Triton's Power Home Link Innovation
+    </h1>
+    <p style="font-size: 1.2vw; line-height: 1.8; color: #ccc; margin-bottom: 3vw;">
+      The Power Home Link Patent Is A Cutting-Edge Microgrid System That Interconnects Electric Vehicles, Homes, And The Power Grid To Optimize Energy Storage, Usage, And Sharing. Designed For Sustainability And Efficiency, It Enables Bidirectional Power Flow, Cost-Saving Energy Management, And Enhanced Grid Independence.
+    </p>
+    <button style="padding: 1vw 2vw; font-size: 1.2vw; background-color: transparent; color: white; border: 2px solid #007BFF; border-radius: 8px; cursor: pointer;">
+      Contact Us to Learn More
+    </button>
+  </div>
+
+  <!-- Right Content -->
+  <div style="flex: 1; display: flex; justify-content: center; align-items: center; position: relative;">
+    <img src="./assets/images/Power home link.png" alt="House and Car Illustration" 
+         style="width: 70%; height: auto; object-fit: contain; z-index: 2;">
+    </div>
+  </div>
+</section>
+
+ <section class="slide fade-6 kenBurns fromLeft" style="display: flex; align-items: center; justify-content: center; height: 100vh; background-color: black; padding: 0 4vw;">
+  <!-- Left Side: Title and Image -->
+  <div style="text-align: center; position: relative; width: 100%;">
+    <!-- Content -->
+    <div class="content" style="position: relative; z-index: 2; color: white; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      <div class="container" style="max-width: 1200px; width: 100%;">
+
+        <!-- Heading -->
+        <h1 style="font-size: 5rem; font-weight: bold; margin-bottom: 15px; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+          Inside Our Production: Where Innovation Meets Precision
+        </h1>
+        <p style="font-size: 2rem; margin-bottom: 20px; color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">
+          Explore How Our Cutting-Edge Manufacturing Processes Bring Triton Electric Vehicles to Life
+        </p>
+
+        <!-- Custom Grid to Adjust Images to Fit the Screen -->
+        <div id="imageGrid" class="custom-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 100%; justify-items: center; align-items: center;">
+          <!-- Images -->
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/1.png" alt="Image 1" class="image" onclick="openModal('assets/images/1.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/4.png" alt="Image 2" class="image" onclick="openModal('assets/images/4.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/7.png" alt="Image 2" class="image" onclick="openModal('assets/images/7.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/10.png" alt="Image 2" class="image" onclick="openModal('assets/images/10.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/13.png" alt="Image 2" class="image" onclick="openModal('assets/images/13.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/2.png" alt="Image 2" class="image" onclick="openModal('assets/images/2.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/5.png" alt="Image 2" class="image" onclick="openModal('assets/images/5.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/8.png" alt="Image 2" class="image" onclick="openModal('assets/images/8.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/11.png" alt="Image 2" class="image" onclick="openModal('assets/images/11.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/3.png" alt="Image 2" class="image" onclick="openModal('assets/images/3.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/6.png" alt="Image 2" class="image" onclick="openModal('assets/images/6.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/9.png" alt="Image 2" class="image" onclick="openModal('assets/images/9.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/12.png" alt="Image 2" class="image" onclick="openModal('assets/images/12.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/14.png" alt="Image 2" class="image" onclick="openModal('assets/images/14.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/10T truck.png" alt="Image 2" class="image" onclick="openModal('assets/images/4.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <div class="image-container" style="overflow: hidden; width: 100%; height: 180px; padding: 8px; position: relative;">
+            <img src="assets/images/45T truck.png" alt="Image 2" class="image" onclick="openModal('assets/images/4.png')" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+          </div>
+          <!-- Add similar image containers for all 16 images -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div id="imageModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); justify-content: center; align-items: center; z-index: 1000;">
+  <img id="modalImage" src="" alt="" style="max-width: 90%; max-height: 90%; border-radius: 10px;">
+  <span onclick="closeModal()" style="position: absolute; top: 20px; right: 40px; font-size: 2rem; color: white; cursor: pointer;">&times;</span>
+</div>
+
+<!-- Styles -->
+<style>
+  /* Enlarge the image on hover */
+ 
+</style>
+
+
+
+
+
+  <!-- Slide 7 (#15) -->
+<section class="slide fade-6 kenBurns fromLeft" style="position: relative; display: flex; flex-direction: column; justify-content: space-between; height: 100vh; padding: 5vw; overflow: hidden; color: white;">
+  <!-- Background Div -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('./assets/images/Powerlink Patent Background.png'); background-size: cover; background-position: center; z-index: 1;"></div>
+
+  <!-- Header Content -->
+  <div style="display: flex; align-items: center; z-index: 2;">
+    <h1 style="font-size: 3vw; font-weight: bold; margin-right: 2vw;">Ready To Join The Future?</h1>
+    <button style="padding: 0.8vw 2vw; font-size: 1.2vw; background-color: transparent; color: white; border: 2px solid #007BFF; border-radius: 8px; cursor: pointer;">
+      Contact Us Today
+    </button>
+  </div>
+
+  <div style="display: flex; justify-content: space-between; gap: 2vw; z-index: 2;">
+    <!-- Card 1 -->
+    <div style="flex: 0.8; background: black; border: 2px solid white; border-radius: 10px; padding: 1.5vw; text-align: center; position: relative;">
+      <img src="./assets/images/10T truck.png" alt="10T Electric Truck" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: 1vw;">
+      <p style="font-size: 1.2vw; color: white; margin-bottom: 0;">10T Electric Truck</p>
+      <span style="position: absolute; top: 10px; right: 10px; font-size: 1.5vw; color: white;">↗</span>
+    </div>
+
+    <!-- Card 2 -->
+    <div style="flex: 0.8; background: black; border: 2px solid white; border-radius: 10px; padding: 1.5vw; text-align: center; position: relative;">
+      <img src="./assets/images/45T truck.png" alt="45T Electric Truck" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: 1vw;">
+      <p style="font-size: 1.2vw; color: white; margin-bottom: 0;">45T Electric Truck</p>
+      <span style="position: absolute; top: 10px; right: 10px; font-size: 1.5vw; color: white;">↗</span>
+    </div>
+
+    <!-- Card 3 -->
+    <div style="flex: 0.8; background: black; border: 2px solid white; border-radius: 10px; padding: 1.5vw; text-align: center; position: relative;">
+      <img src=".\assets\images\hc-engine.png" alt="Hydrogen Engine" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: 1vw;">
+      <p style="font-size: 1.2vw; color: white; margin-bottom: 0;">Hydrogen Engine</p>
+      <span style="position: absolute; top: 10px; right: 10px; font-size: 1.5vw; color: white;">↗</span>
+    </div>
+
+    <!-- Card 4 -->
+    <div style="flex: 0.8; background: black; border: 2px solid white; border-radius: 10px; padding: 1.5vw; text-align: center; position: relative;">
+      <img src="./assets/images/Power home link.png" alt="Power Home Link" style="width: 100%; height: 200px; object-fit: cover; margin-bottom: 1vw;">
+      <p style="font-size: 1.2vw; color: white; margin-bottom: 0;">Power Home Link</p>
+      <span style="position: absolute; top: 10px; right: 10px; font-size: 1.5vw; color: white;">↗</span>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div style="display: flex; justify-content: space-between; align-items: center; z-index: 2; margin-top: 2vw;">
+    <!-- Social Media Links -->
+    <div style="display: flex; gap: 2vw;">
+      <a href="#" style="font-size: 2vw; color: white;"><i class="fa fa-twitter"></i></a>
+      <a href="#" style="font-size: 2vw; color: white;"><i class="fa fa-linkedin"></i></a>
+      <a href="#" style="font-size: 2vw; color: white;"><i class="fa fa-facebook"></i></a>
+      <a href="#" style="font-size: 2vw; color: white;"><i class="fa fa-instagram"></i></a>
+    </div>
+
+    <!-- Email Subscription -->
+    <div style="display: flex; flex-direction: column; gap: 1vw; align-items: center;">
+      <!-- New Line Above the Email Button -->
+      <p style="font-size: 1.2vw; color: white; text-align: center; margin: 0;">
+        Stay updated on our journey toward sustainable innovation.
+      </p>
+      <div style="display: flex; gap: 1vw; align-items: center;">
+        <input type="email" placeholder="Enter your email" style="padding: 1vw 1.5vw; font-size: 1.2vw; border-radius: 8px; border: 1px solid #ccc; width: 25vw;">
+        <button style="padding: 1vw 2vw; font-size: 1.2vw; background-color: #007BFF; color: white; border: none; border-radius: 8px; cursor: pointer;">Submit</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Panel Bottom #15 -->
+  <!-- <nav class="panel bottom lastSlideOnly">
+    <div class="sections">
+      <div class="center"><a href="#" class="opacity-8">Available
+          @ Triton electric vehicle
+        </a></div>
+    </div>
+  </nav> -->
+
+  <!-- Loading Progress Bar -->
+  <!-- <div class="progress-bar blue"></div> -->
+
+</body>
+
+</html>
