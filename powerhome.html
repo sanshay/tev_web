@@ -229,60 +229,68 @@
 <!-- Slide 2 (#15) -->
 <section class="slide fade-6 kenBurns fromLeft" style="background-color: black; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px;">
   <!-- Heading -->
-  <h1 style="text-align: left; font-size: 7rem; color: white; margin-bottom: 20px; max-width: 1200px; margin-left: 50px;">
-    How Power Home Link Works
-  </h1>
+  <h1 style="text-align: left; font-size: 6.5rem; color: white; margin-bottom: 40px; width: 100%;">
+    Revolutionizing Home Energy: Power Home Link
+</h1>
 
-  <!-- Horizontal Layout for Two Images -->
-  <div class="content-row" style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 30px; flex-wrap: nowrap; max-width: 1200px; width: 100%;">
-    <!-- First Image and Text -->
-    <div style="text-align: center; flex: 1; max-width: 40%;">
+
+  <!-- Layout for Images and Text -->
+  <div style="display: grid; grid-template-areas: 
+               'image1 text1'
+               'text2 image2'; 
+               gap: 30px; 
+               max-width: 1200px; 
+               width: 100%;">
+
+    <!-- First Image -->
+    <div style="grid-area: image1; text-align: center;">
       <img
         src="assets/images/Power-outage.gif"
         alt="Power Outage"
-        style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; margin-bottom: 15px;"
+        style="width: 85%; max-width: 800px; height: auto; border-radius: 12px; object-fit: cover;"
       />
-      <p style="font-size: 2.5rem; color: white; text-align: center; line-height: 1.6; margin: 0;">
+    </div>
+
+    <!-- First Text -->
+    <div style="grid-area: text1; display: flex; align-items: center; justify-content: center; text-align: left;">
+      <p style="font-size: 4.5rem; color: white; line-height: 1.6; margin: 0;">
         The Power Home Link controls the charging of the car as well as controls the power going back from the vehicle to the house during a power outage.
       </p>
     </div>
 
-    <!-- Second Image -->
-    <div style="text-align: center; flex: 1; max-width: 40%;">
-      <img
-        src="assets/images/Net-Metering-ss.gif"
-        alt="Power Home Link"
-        style="width: 100%; height: auto; border-radius: 12px; object-fit: cover; margin-bottom: 15px;"
-      />
-      <p style="font-size: 2.5rem; color: white; text-align: center; line-height: 1.6; margin: 0;">
+    <!-- Second Text -->
+    <div style="grid-area: text2; display: flex; align-items: center; justify-content: center; text-align: left;">
+      <p style="font-size:  4.5rem; color: white; line-height: 1.6; margin: 0;">
         Net metering allows residential and commercial customers, who generate their own electricity, to sell the electricity they aren't using back into the grid.
       </p>
     </div>
-  </div>
 
-  <!-- "Power Your Home With Smart Energy" Section with Button on the Same Line -->
-  <div style="display: flex; align-items: center; justify-content: center; max-width: 1200px; width: 100%; margin-top: 40px; gap: 20px; background-color: grey; padding: 20px; border-radius: 50px;">
-    <h2 style="font-size: 4.5rem; color: black; margin: 0; text-align: left;">
-      Power Your Home With Smart Energy – Get Started Today
-    </h2>
-    <button onclick="window.location.href='contact.html'" style="font-size: 4rem; color: white; background-color: black; padding: 15px 30px; border: none; border-radius: 50px; cursor: pointer; transition: background-color 0.3s;">
-      Book a Free Demo
-    </button>
+    <!-- Second Image -->
+    <div style="grid-area: image2; text-align: center;">
+      <img
+        src="assets/images/Net-Metering-ss.gif"
+        alt="Net Metering"
+        style="width: 85%; max-width: 800px; height: auto; border-radius: 12px; object-fit: cover;"
+      />
+    </div>
+    <div class="background" style="
+    background-image: url('./assets/images/Power\ Home\ link\ BG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  "></div>
+    
+
   </div>
-  
-  <div class="background" style="
-  background-image: url('./assets/images/Power\ Home\ link\ BG.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-"></div>
-  
 </section>
+
+
+
 
   <!-- Slide 3 (#09) -->
   <section class="slide fade-6 kenBurns fromLeft" style="background-color: black; min-height: 100vh; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; padding: 50px;">
